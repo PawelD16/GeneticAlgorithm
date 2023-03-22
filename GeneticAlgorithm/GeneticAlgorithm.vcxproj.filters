@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\ExceptionHeaders">
+      <UniqueIdentifier>{c9993987-a4f7-4aaf-bba1-ee4007d3af0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\ExceptionSources">
+      <UniqueIdentifier>{52495671-a757-484d-8c51-8695493d2fcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnapsackProblem.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeneticAlgorithm.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CIndividual.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileReadingException.cpp">
+      <Filter>Pliki źródłowe\ExceptionSources</Filter>
+    </ClCompile>
+    <ClCompile Include="CIncorrectProbabilityException.cpp">
+      <Filter>Pliki źródłowe\ExceptionSources</Filter>
+    </ClCompile>
+    <ClCompile Include="CIncorrectValueException.cpp">
+      <Filter>Pliki źródłowe\ExceptionSources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CKnapsackProblem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeneticAlgorithm.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="CIndividual.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Pliki nagłówkowe\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="IProblem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileReadingException.h">
+      <Filter>Pliki nagłówkowe\ExceptionHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CIncorrectProbabilityException.h">
+      <Filter>Pliki nagłówkowe\ExceptionHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CIncorrectValueException.h">
+      <Filter>Pliki nagłówkowe\ExceptionHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="incorrectValuesTest.txt">
+      <Filter>Pliki nagłówkowe\Resources</Filter>
+    </Text>
+    <Text Include="test.txt">
+      <Filter>Pliki nagłówkowe\Resources</Filter>
+    </Text>
+    <Text Include="incorrectKnapsackCapacityTest.txt">
+      <Filter>Pliki nagłówkowe\Resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
